@@ -1,0 +1,2356 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1054041463177868}
+  m_IsPrefabAsset: 1
+--- !u!1 &1005852491350128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4847876473241436}
+  - component: {fileID: 114808335279183236}
+  m_Layer: 12
+  m_Name: Earth
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1030228571905376
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4598496911711388}
+  - component: {fileID: 114307831826986242}
+  m_Layer: 12
+  m_Name: Grass
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1054041463177868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4583068302402072}
+  - component: {fileID: 114746553810211812}
+  m_Layer: 0
+  m_Name: Trt
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1064570991412016
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4743260186032160}
+  - component: {fileID: 114132430756319562}
+  m_Layer: 12
+  m_Name: Light
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1150417802986548
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4321084726153914}
+  - component: {fileID: 114306652582686722}
+  m_Layer: 0
+  m_Name: Healing
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1158636703972390
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4719724937575862}
+  - component: {fileID: 114747564757671072}
+  m_Layer: 12
+  m_Name: Ice
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1178178062520140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4427710795285426}
+  - component: {fileID: 114744624964073290}
+  m_Layer: 0
+  m_Name: FastSwim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1197506079181132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4678144374719588}
+  - component: {fileID: 114320386919668906}
+  m_Layer: 0
+  m_Name: Ki
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1212606439649866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4634226044847388}
+  - component: {fileID: 114841081281538850}
+  m_Layer: 12
+  m_Name: Agility
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1221140178871398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4450316585470862}
+  - component: {fileID: 114067699924431670}
+  m_Layer: 0
+  m_Name: Transform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1225441579723856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4008360940342218}
+  - component: {fileID: 114612495596702184}
+  m_Layer: 12
+  m_Name: Intelligence
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1233421739374618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4656098368229302}
+  - component: {fileID: 114652198508090010}
+  m_Layer: 0
+  m_Name: Berserk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1235881435078502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4933394596992440}
+  - component: {fileID: 114021554655126678}
+  m_Layer: 12
+  m_Name: Defense
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1246886924768594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4677248561515874}
+  - component: {fileID: 114926387172742172}
+  m_Layer: 12
+  m_Name: Aether
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1276261469329820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4085962488759972}
+  - component: {fileID: 114101428438165788}
+  m_Layer: 12
+  m_Name: Max Hp
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1292445901622440
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4113368817697692}
+  - component: {fileID: 114233429007808838}
+  m_Layer: 0
+  m_Name: Acrobatics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1295948638686974
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4472154375900428}
+  - component: {fileID: 114204433075164586}
+  m_Layer: 12
+  m_Name: Kinesthetics
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1319600107444086
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4944286544732600}
+  - component: {fileID: 114340696793999146}
+  m_Layer: 12
+  m_Name: Speed
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1374905886332600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4394217039673692}
+  - component: {fileID: 114748918771139208}
+  m_Layer: 12
+  m_Name: Dark
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1386511391203952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4991051541177700}
+  - component: {fileID: 114485832981713566}
+  m_Layer: 0
+  m_Name: Phase
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1410161602163954
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4321392150881658}
+  - component: {fileID: 114000484054353362}
+  m_Layer: 12
+  m_Name: Gravity
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1422204346382346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4473475533750400}
+  - component: {fileID: 114075604691754040}
+  m_Layer: 12
+  m_Name: Poison
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1430930367356614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4330892284754594}
+  - component: {fileID: 114697730582803822}
+  m_Layer: 0
+  m_Name: Battery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1437748733927838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4966330864074786}
+  - component: {fileID: 114605702859196594}
+  m_Layer: 12
+  m_Name: Strength
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1465183057470770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4750646262367878}
+  - component: {fileID: 114374718615696146}
+  m_Layer: 12
+  m_Name: Power Attack
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1505768863035216
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4216102741207030}
+  - component: {fileID: 114160160519763146}
+  m_Layer: 12
+  m_Name: Weight
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1512258254141620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4543670701391786}
+  - component: {fileID: 114742173807815732}
+  m_Layer: 12
+  m_Name: Water
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1543496406137798
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4126023994470274}
+  - component: {fileID: 114813161826500536}
+  m_Layer: 12
+  m_Name: Attack
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1605591190545852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4143239046889508}
+  - component: {fileID: 114919174040512320}
+  m_Layer: 0
+  m_Name: LavaSwim
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1619714851793326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4573098062455872}
+  - component: {fileID: 114720043018482628}
+  m_Layer: 12
+  m_Name: Special Attack
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1676709910685564
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4982584520787038}
+  - component: {fileID: 114682871534147536}
+  m_Layer: 0
+  m_Name: Stealth
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1719431412907292
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4641922938265564}
+  - component: {fileID: 114502889999314466}
+  m_Layer: 12
+  m_Name: Study
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1749892802222424
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4245347070276016}
+  - component: {fileID: 114566541085644550}
+  m_Layer: 12
+  m_Name: Electric
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1866450532426662
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4506683348531344}
+  - component: {fileID: 114160843133713126}
+  m_Layer: 12
+  m_Name: Special Defense
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1881428561503706
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4903898849903956}
+  - component: {fileID: 114559759564605952}
+  m_Layer: 12
+  m_Name: Fire
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1894767367288932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4461393339517906}
+  - component: {fileID: 114594121194960736}
+  m_Layer: 0
+  m_Name: DragonForm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1952147948382598
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4334894315223520}
+  - component: {fileID: 114734905083603924}
+  m_Layer: 12
+  m_Name: Wind
+  m_TagString: ElementalTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1962333250695240
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4759082341285484}
+  - component: {fileID: 114412113034471168}
+  m_Layer: 12
+  m_Name: Practice
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1972653386185716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4653774611508766}
+  - component: {fileID: 114792601596616824}
+  m_Layer: 12
+  m_Name: Talent
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1975821342505428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4519399307361594}
+  - component: {fileID: 114420701551717904}
+  m_Layer: 12
+  m_Name: Power Defense
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1983275820593732
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4949565621996516}
+  - component: {fileID: 114473516103575118}
+  m_Layer: 12
+  m_Name: Wisdom
+  m_TagString: StatTraits
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4008360940342218
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225441579723856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4085962488759972
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276261469329820}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 34
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4113368817697692
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1292445901622440}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4126023994470274
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1543496406137798}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4143239046889508
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1605591190545852}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4216102741207030
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505768863035216}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 24
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4245347070276016
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1749892802222424}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4321084726153914
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150417802986548}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4321392150881658
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410161602163954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4330892284754594
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1430930367356614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4334894315223520
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952147948382598}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4394217039673692
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374905886332600}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 21
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4427710795285426
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178178062520140}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4450316585470862
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221140178871398}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4461393339517906
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1894767367288932}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4472154375900428
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295948638686974}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 35
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4473475533750400
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422204346382346}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4506683348531344
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866450532426662}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 29
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4519399307361594
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975821342505428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 32
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4543670701391786
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512258254141620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4573098062455872
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619714851793326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 30
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4583068302402072
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054041463177868}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4113368817697692}
+  - {fileID: 4461393339517906}
+  - {fileID: 4427710795285426}
+  - {fileID: 4143239046889508}
+  - {fileID: 4991051541177700}
+  - {fileID: 4982584520787038}
+  - {fileID: 4450316585470862}
+  - {fileID: 4321084726153914}
+  - {fileID: 4330892284754594}
+  - {fileID: 4656098368229302}
+  - {fileID: 4678144374719588}
+  - {fileID: 4334894315223520}
+  - {fileID: 4543670701391786}
+  - {fileID: 4473475533750400}
+  - {fileID: 4743260186032160}
+  - {fileID: 4719724937575862}
+  - {fileID: 4321392150881658}
+  - {fileID: 4598496911711388}
+  - {fileID: 4903898849903956}
+  - {fileID: 4245347070276016}
+  - {fileID: 4847876473241436}
+  - {fileID: 4394217039673692}
+  - {fileID: 4677248561515874}
+  - {fileID: 4949565621996516}
+  - {fileID: 4216102741207030}
+  - {fileID: 4653774611508766}
+  - {fileID: 4641922938265564}
+  - {fileID: 4966330864074786}
+  - {fileID: 4944286544732600}
+  - {fileID: 4506683348531344}
+  - {fileID: 4573098062455872}
+  - {fileID: 4759082341285484}
+  - {fileID: 4519399307361594}
+  - {fileID: 4750646262367878}
+  - {fileID: 4085962488759972}
+  - {fileID: 4472154375900428}
+  - {fileID: 4008360940342218}
+  - {fileID: 4933394596992440}
+  - {fileID: 4126023994470274}
+  - {fileID: 4634226044847388}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4598496911711388
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1030228571905376}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4634226044847388
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212606439649866}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4641922938265564
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719431412907292}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4653774611508766
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972653386185716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 25
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4656098368229302
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233421739374618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4677248561515874
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1246886924768594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 22
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4678144374719588
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197506079181132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4719724937575862
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158636703972390}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4743260186032160
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064570991412016}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4750646262367878
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465183057470770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 33
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4759082341285484
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1962333250695240}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 31
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4847876473241436
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005852491350128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 20
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4903898849903956
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881428561503706}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4933394596992440
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1235881435078502}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4944286544732600
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319600107444086}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 28
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4949565621996516
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983275820593732}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 23
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4966330864074786
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437748733927838}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 27
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4982584520787038
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1676709910685564}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4991051541177700
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386511391203952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4583068302402072}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000484054353362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1410161602163954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-17
+  Tier: 1
+  MaxHealthUpgrades: -2
+  AttackUpgrades: 1
+  SpecialAttackUpgrades: 2
+  PowerAttackUpgrades: 2
+  DefenseUpgrades: -2
+  SpecialDefenseUpgrades: -2
+  PowerDefenseUpgrades: -2
+  SpeedUpgrades: 1
+  AgilityUpgrades: 1
+  StrengthUpgrades: 3
+  WeightUpgrades: -2
+  Type: 10
+  Weaknesses: 0500000004000000
+--- !u!114 &114021554655126678
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1235881435078502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-38
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 7
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 4
+--- !u!114 &114067699924431670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1221140178871398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ec913bbea19f954a860a1958708248a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-7
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114075604691754040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1422204346382346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-14
+  Tier: 1
+  MaxHealthUpgrades: 1
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 5
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: -1
+  AgilityUpgrades: -1
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  Type: 11
+  Weaknesses: 0b000000
+--- !u!114 &114101428438165788
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1276261469329820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-35
+  Tier: 1
+  MaxHealthUpgrades: 7
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 0
+--- !u!114 &114132430756319562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1064570991412016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-15
+  Tier: 1
+  MaxHealthUpgrades: 3
+  AttackUpgrades: -1
+  SpecialAttackUpgrades: 3
+  PowerAttackUpgrades: 2
+  DefenseUpgrades: -1
+  SpecialDefenseUpgrades: -2
+  PowerDefenseUpgrades: -3
+  SpeedUpgrades: 6
+  AgilityUpgrades: -3
+  StrengthUpgrades: 0
+  WeightUpgrades: 1
+  Type: 8
+  Weaknesses: 09000000
+--- !u!114 &114160160519763146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1505768863035216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-25
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: -7
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 10
+--- !u!114 &114160843133713126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1866450532426662}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-30
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 7
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 5
+--- !u!114 &114204433075164586
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1295948638686974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-36
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 7
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 11
+--- !u!114 &114233429007808838
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1292445901622440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32a275ab7f696a641bbd2d9f836d404c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-1
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114306652582686722
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1150417802986548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fa372d2e9f99f84982ef36c7b5b9844, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-8
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114307831826986242
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1030228571905376}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-18
+  Tier: 1
+  MaxHealthUpgrades: 5
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 1
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 1
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 1
+  SpeedUpgrades: 0
+  AgilityUpgrades: -2
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  Type: 6
+  Weaknesses: 02000000040000000b000000
+--- !u!114 &114320386919668906
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1197506079181132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4cf2616dbdb4704191cb1e3d4ad297a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-11
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114340696793999146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1319600107444086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-29
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 7
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 7
+--- !u!114 &114374718615696146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1465183057470770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-34
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 7
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 3
+--- !u!114 &114412113034471168
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1962333250695240}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-32
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 7
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 12
+--- !u!114 &114420701551717904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1975821342505428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-33
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 7
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 6
+--- !u!114 &114473516103575118
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1983275820593732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-24
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 7
+  Trait: 16
+--- !u!114 &114485832981713566
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1386511391203952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f32b435815c21847be8ea7c341de6bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-5
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114502889999314466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1719431412907292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-27
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 7
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 14
+--- !u!114 &114559759564605952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1881428561503706}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-19
+  Tier: 1
+  MaxHealthUpgrades: -2
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 7
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  Type: 2
+  Weaknesses: 010000000a000000
+--- !u!114 &114566541085644550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1749892802222424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-20
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 2
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: -1
+  SpecialDefenseUpgrades: -1
+  PowerDefenseUpgrades: -2
+  SpeedUpgrades: 5
+  AgilityUpgrades: 3
+  StrengthUpgrades: -1
+  WeightUpgrades: 1
+  Type: 3
+  Weaknesses: 05000000
+--- !u!114 &114594121194960736
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1894767367288932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce777a98ec1cb0b49ae98f76c060d256, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-2
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114605702859196594
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437748733927838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-28
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 7
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 9
+--- !u!114 &114612495596702184
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1225441579723856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-37
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 7
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 13
+--- !u!114 &114652198508090010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1233421739374618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8793ed8e09005c44c9e2b468fffc7b2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-10
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114682871534147536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1676709910685564}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 342898ba29edee740be7650a6b4e36af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-6
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114697730582803822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1430930367356614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70486693aaa54604dbff60663fae2de9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-9
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114720043018482628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1619714851793326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-31
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 7
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 2
+--- !u!114 &114734905083603924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952147948382598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-12
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: -1
+  DefenseUpgrades: -1
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 4
+  AgilityUpgrades: 5
+  StrengthUpgrades: 0
+  WeightUpgrades: 1
+  Type: 4
+  Weaknesses: 030000000a00000002000000
+--- !u!114 &114742173807815732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1512258254141620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-13
+  Tier: 1
+  MaxHealthUpgrades: 2
+  AttackUpgrades: 1
+  SpecialAttackUpgrades: 1
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 1
+  SpecialDefenseUpgrades: 2
+  PowerDefenseUpgrades: 1
+  SpeedUpgrades: -1
+  AgilityUpgrades: -1
+  StrengthUpgrades: 0
+  WeightUpgrades: 1
+  Type: 1
+  Weaknesses: 0300000006000000
+--- !u!114 &114744624964073290
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1178178062520140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9889faa458312545ac1589065c0be53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-3
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114746553810211812
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1054041463177868}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 054d3843bfb34d3498404d59d0fc3cbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114747564757671072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1158636703972390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-16
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: -1
+  PowerAttackUpgrades: -1
+  DefenseUpgrades: 3
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 3
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 1
+  WeightUpgrades: 0
+  Type: 7
+  Weaknesses: 020000000a000000
+--- !u!114 &114748918771139208
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1374905886332600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-22
+  Tier: 1
+  MaxHealthUpgrades: -2
+  AttackUpgrades: -1
+  SpecialAttackUpgrades: 3
+  PowerAttackUpgrades: 4
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: -1
+  PowerDefenseUpgrades: -2
+  SpeedUpgrades: 0
+  AgilityUpgrades: 2
+  StrengthUpgrades: 1
+  WeightUpgrades: 0
+  Type: 9
+  Weaknesses: 08000000
+--- !u!114 &114792601596616824
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1972653386185716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-26
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 7
+  WisdomUpgrades: 0
+  Trait: 15
+--- !u!114 &114808335279183236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1005852491350128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-21
+  Tier: 1
+  MaxHealthUpgrades: 1
+  AttackUpgrades: 1
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 3
+  SpecialDefenseUpgrades: 3
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: -1
+  AgilityUpgrades: -1
+  StrengthUpgrades: 1
+  WeightUpgrades: 0
+  Type: 5
+  Weaknesses: 04000000010000000700000006000000
+--- !u!114 &114813161826500536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1543496406137798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-39
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 7
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 1
+--- !u!114 &114841081281538850
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1212606439649866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a57490863a0c04bade732bb2344744, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-40
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 7
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+  KinestheticsUpgrades: 0
+  PracticeUpgrades: 0
+  IntelligenceUpgrades: 0
+  StudyUpgrades: 0
+  TalentUpgrades: 0
+  WisdomUpgrades: 0
+  Trait: 8
+--- !u!114 &114919174040512320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1605591190545852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d4d89cb7969a964b898187cd3e171cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-4
+  Tier: 1
+  MaxHealthUpgrades: 0
+  AttackUpgrades: 0
+  SpecialAttackUpgrades: 0
+  PowerAttackUpgrades: 0
+  DefenseUpgrades: 0
+  SpecialDefenseUpgrades: 0
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: 0
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 0
+--- !u!114 &114926387172742172
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1246886924768594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f04fe5541f93de840ba711f01c4b5849, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TraitID: Trt-23
+  Tier: 1
+  MaxHealthUpgrades: 3
+  AttackUpgrades: -2
+  SpecialAttackUpgrades: -1
+  PowerAttackUpgrades: 5
+  DefenseUpgrades: 2
+  SpecialDefenseUpgrades: -3
+  PowerDefenseUpgrades: 0
+  SpeedUpgrades: -1
+  AgilityUpgrades: 0
+  StrengthUpgrades: 0
+  WeightUpgrades: 1
+  Type: 12
+  Weaknesses: 0c000000
