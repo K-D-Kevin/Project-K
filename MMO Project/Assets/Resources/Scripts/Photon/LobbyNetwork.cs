@@ -4,32 +4,37 @@ using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
 
-public class LobbyNetwork : MonoBehaviour {
+public class LobbyNetwork : MonoBehaviourPunCallbacks {
 
 	// Use this for initialization
 	void Start () {
         PhotonNetwork.OfflineMode = false;
         PhotonNetwork.LocalPlayer.NickName = PlayerNetwork.Instance.PlayerName;
         PhotonNetwork.AutomaticallySyncScene = true;
-        PhotonNetwork.GameVersion = "V# 0.0.1";
+        //PhotonNetwork.GameVersion = "1";
 
         print("Connecting to Server...");
         PhotonNetwork.ConnectUsingSettings();
     }
 
-    public void OnDisconnected(DisconnectCause cause)
+    public override void OnConnected()
     {
-        print(cause);
+        print("Connected");
     }
 
-    private void OnConnectedToMaster()
+    public override void OnDisconnected(DisconnectCause cause)
+    {
+        print("Disconnected Cause: " + cause);
+    }
+
+    public override void OnConnectedToMaster()
     {
         print("Connected to Master.");
 
         PhotonNetwork.JoinLobby();
     }
 
-    private void OnJoinedLobby()
+    public override void OnJoinedLobby()
     {
         print("Connected to Lobby.");
     }

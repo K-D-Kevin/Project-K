@@ -386,6 +386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RoomInputField: {fileID: 1506397258}
+  RLG: {fileID: 1881933302}
 --- !u!1 &166445465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,6 +1759,7 @@ GameObject:
   - component: {fileID: 1881933299}
   - component: {fileID: 1881933301}
   - component: {fileID: 1881933300}
+  - component: {fileID: 1881933302}
   m_Layer: 5
   m_Name: Rooms
   m_TagString: Untagged
@@ -1818,6 +1820,20 @@ MonoBehaviour:
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
+--- !u!114 &1881933302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1881933298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e6438ff8985368489e18ab0507d5d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RT: {fileID: 1881933299}
+  RoomPrefab: {fileID: 114995419755220726, guid: d037568d51b29204ab92fea47501c4bf,
+    type: 2}
 --- !u!1 &1904157287
 GameObject:
   m_ObjectHideFlags: 0

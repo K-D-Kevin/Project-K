@@ -91,6 +91,7 @@ GameObject:
   - component: {fileID: 114555857646958328}
   - component: {fileID: 114376788374951722}
   - component: {fileID: 222483770491473644}
+  - component: {fileID: 114995419755220726}
   m_Layer: 5
   m_Name: Room Entry
   m_TagString: Untagged
@@ -317,7 +318,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 114440188331194286}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 114995419755220726}
+        m_MethodName: UpdateRoom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &114440188331194286
@@ -332,7 +344,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -495,6 +507,21 @@ MonoBehaviour:
   m_Text: 'Training Room
 
 '
+--- !u!114 &114995419755220726
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1437097581237232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf44a95910848d4980644fa4d8a1a53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RoomNameText: {fileID: 114127119964742104}
+  RoomTypeText: {fileID: 114903739784146894}
+  RoomPingText: {fileID: 114816796867451092}
+  RoomCountText: {fileID: 114852819424370370}
 --- !u!222 &222125578940572378
 CanvasRenderer:
   m_ObjectHideFlags: 1
