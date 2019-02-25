@@ -5,23 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour {
 
+    private bool ShortcutsActive = true;
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Backspace))
+        if (ShortcutsActive)
         {
-            LeaveGame();
+            if (Input.GetKeyDown(KeyCode.Backspace))
+            {
+                LeaveGame();
+            }
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+
+            if (Input.GetKeyDown(KeyCode.T))
+            {
+                LoadTitle();
+            }
         }
 
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+    }
 
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            LoadTitle();
-        }
-
+    public void SetShortCuts(bool Active = true)
+    {
+        ShortcutsActive = Active;
     }
     public void LoadMain()
     {
