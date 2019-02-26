@@ -6,6 +6,8 @@ using Photon.Realtime;
 
 public class LobbyNetwork : MonoBehaviourPunCallbacks {
 
+    private string RoomIdentifier = "None";
+
 	// Use this for initialization
 	void Start () {
         PhotonNetwork.OfflineMode = false;
@@ -39,6 +41,18 @@ public class LobbyNetwork : MonoBehaviourPunCallbacks {
         print("Connected to Lobby.");
     }
 
+    public override void OnLeftLobby()
+    {
+        print("Left Lobby.");
+        base.OnLeftLobby();
+    }
+
+    public override void OnLeftRoom()
+    {
+        print("Left Room.");
+        base.OnLeftRoom();
+    }
+
     private void OnFailedToConnectToPhoton()
     {
         print("Connected to Master: Invalid AppID or Network Issues");
@@ -49,5 +63,29 @@ public class LobbyNetwork : MonoBehaviourPunCallbacks {
         print("Connected to Master: Invalid Region or Maxed out CCU");
     }
 
+    private void OnApplicationQuit()
+    {
+        print("Closing Game.");
+        if (PhotonNetwork.InRoom)
+            PhotonNetwork.LeaveRoom();
+        if (PhotonNetwork.InLobby)
+            PhotonNetwork.LeaveLobby();
+    }
 
+    public void SetRoom(RoomListing DesiredRoom)
+    {
+        RoomIdentifier = DesiredRoom.RoomListingInfo.RoomIdentifier;
+    }
+
+    public void JoinPhotonRoom()
+    {
+        if (RoomIdentifier != "None")
+            PhotonNetwork.JoinRoom(RoomIdentifier);
+    }
+
+    public void LeavePhotonRoom()
+    {
+        if (PhotonNetwork.InRoom)
+            PhotonNetwork.LeaveRoom();
+    }
 }

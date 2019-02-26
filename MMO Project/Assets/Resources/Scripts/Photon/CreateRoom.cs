@@ -18,19 +18,59 @@ public class CreateRoom : MonoBehaviourPunCallbacks
 
     public void CreatePhotonRoom()
     {
-        RoomName = RoomInputField.text;
-        RoomIdentifier = PlayerNetwork.Instance.name + "'s Room";
-        if (RoomName == "")
+        if (PhotonNetwork.IsConnectedAndReady)
         {
-            RoomName = PlayerNetwork.Instance.name + "'s Room";
+            RoomName = RoomInputField.text;
+            RoomIdentifier = PlayerNetwork.Instance.name + "'s Room";
+
+            RoomOptions RO = new RoomOptions() { IsVisible = true, IsOpen = true, MaxPlayers = 12 };
+            RO.CustomRoomProperties = new ExitGames.Client.Photon.Hashtable();
+            RO.CustomRoomProperties.Add("RoomNameKey", RoomName);
+            RO.CustomRoomProperties.Add("RoomTypeKey", "Custom");
+
+            RO.CustomRoomPropertiesForLobby = new string[2];
+            RO.CustomRoomPropertiesForLobby[0] = "RoomNameKey";
+            RO.CustomRoomPropertiesForLobby[1] = "RoomTypeKey";
+
+            if (RoomName == "")
+            {
+                RoomName = PlayerNetwork.Instance.name + "'s Room";
+            }
+            if (PhotonNetwork.CreateRoom(RoomIdentifier, RO, TypedLobby.Default))
+            {
+                print("Create Room Request Sent.");
+            }
+            else
+            {
+                print("Create Room Request Failed to Send.");
+            }
         }
-        if (PhotonNetwork.CreateRoom(RoomIdentifier))
+    }
+
+    public void CreatePhotonTrainingRoom()
+    {
+        if (PhotonNetwork.IsConnectedAndReady)
         {
-            print("Create Room Request Sent.");
-        }
-        else
-        {
-            print("Create Room Request Failed to Send.");
+            RoomName = PlayerNetwork.Instance.name + "'s Training Room";
+            RoomIdentifier = PlayerNetwork.Instance.name + "'s Room";
+
+            RoomOptions RO = new RoomOptions() { IsVisible = false, IsOpen = true, MaxPlayers = 12 };
+            RO.CustomRoomProperties = new ExitGames.Client.Photon.Hashtable();
+            RO.CustomRoomProperties.Add("RoomNameKey", RoomName);
+            RO.CustomRoomProperties.Add("RoomTypeKey", "Training");
+
+            RO.CustomRoomPropertiesForLobby = new string[2];
+            RO.CustomRoomPropertiesForLobby[0] = "RoomNameKey";
+            RO.CustomRoomPropertiesForLobby[1] = "RoomTypeKey";
+
+            if (PhotonNetwork.CreateRoom(RoomIdentifier, RO, TypedLobby.Default))
+            {
+                print("Create Room Request Sent.");
+            }
+            else
+            {
+                print("Create Room Request Failed to Send.");
+            }
         }
     }
 
@@ -42,8 +82,28 @@ public class CreateRoom : MonoBehaviourPunCallbacks
     public override void OnCreatedRoom()
     {
         print("Room Created.");
-        if (PhotonNetwork.IsConnectedAndReady)
-            PhotonNetwork.JoinRoom(RoomIdentifier);
+        PhotonNetwork.JoinRoom(RoomIdentifier);
+        //if (PhotonNetwork.GetCustomRoomList(TypedLobby.Default, ""))
+        //{
+        //    print("Finding Room Created.");
+        //}
+    }
+
+    //public override void OnRoomListUpdate(List<RoomInfo> roomList)
+    //{
+    //    foreach (RoomInfo RI in roomList)
+    //    {
+    //        if (RI.Name == RoomIdentifier)
+    //        {
+    //            print("Found Room Created.");
+    //            RoomInfo CreatedRoom = RI;
+    //        }
+    //    }
+    //}
+    public override void OnJoinRoomFailed(short returnCode, string message)
+    {
+        print("Failed to Join Room: " + message + ", " + returnCode);
+        //base.OnJoinRoomFailed(returnCode, message);
     }
 
     public override void OnJoinedRoom()

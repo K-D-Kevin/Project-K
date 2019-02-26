@@ -55,6 +55,18 @@ public class RoomListing : MonoBehaviour {
         set { RoomListingInfo.RoomMaxCount = value; }
     }
 
+    public bool Updated
+    {
+      get;
+      set;
+    }
+
+    [PunRPC]
+    public void RPC_UpdateRoom(string name, string type, float ping, int count, int maxCount)
+    {
+        UpdateInfo(name, type, ping, count, maxCount);
+    }
+
     public void UpdateRoom()
     {
         RoomNameText.text = RoomListingInfo.RoomName;
@@ -81,5 +93,11 @@ public class RoomListing : MonoBehaviour {
     public RoomInfo GetRoomInfo()
     {
         return RoomListingInfo;
+    }
+
+    public void SetLobbyNetworkRoom()
+    {
+        LobbyNetwork LN = FindObjectOfType<LobbyNetwork>();
+        LN.SetRoom(this);
     }
 }

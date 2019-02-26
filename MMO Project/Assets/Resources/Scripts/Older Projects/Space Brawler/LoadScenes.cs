@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class LoadScenes : MonoBehaviour {
 
-    private bool ShortcutsActive = true;
+    private bool ShortcutsActive = false;
     private void Update()
     {
         if (ShortcutsActive)
